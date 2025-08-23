@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">jar</string>
+    <string name="header_onBoarding">"Onboarding"</string>
 </resources>

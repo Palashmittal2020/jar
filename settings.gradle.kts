@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "jar"
 include(":app")
+include(":networking")
