@@ -8,8 +8,11 @@ espressoCore = "3.7.0"
 lifecycleRuntimeKtx = "2.9.2"
 activityCompose = "1.10.1"
 composeBom = "2024.09.00"
-ktorVersion="3.2.3"
-koin_version="4.0.3"
+ktorVersion = "3.2.3"
+koin_version = "4.0.3"
+glide_version = "4.12.0"
+lottie_version = "3.7.0"
+compose_lottie_version = "5.1.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -34,6 +37,14 @@ ktor-client-content-negotiation = { group = "io.ktor", name = "ktor-client-conte
 ktor-serialization-kotlinx-json = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version.ref = "ktorVersion" }
 
 koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "koin_version" }
+
+# Glide
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide_version" }
+glide-compiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide_version" }
+
+# Lottie
+lottie = { group = "com.airbnb.android", name = "lottie", version.ref = "lottie_version" }
+lottie-compose = { group = "com.airbnb.android", name = "lottie-compose", version.ref = "compose_lottie_version" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
